@@ -3,8 +3,8 @@ scikit-learn
 matplotlib
 streamlit
 ipykernel
-numpy==1.26.4
-protobuf==4.25.3
-tensorboard==2.15.2
-tensorflow==2.15.0
-setuptools==69.5.1
+numpy
+protobuf
+tensorboard
+tensorflow
+setuptools
