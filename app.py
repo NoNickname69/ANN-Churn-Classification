@@ -1,6 +1,3 @@
-import os
-os.environ["TF_USE_LEGACY_KERAS"] = "1"
-
 import tensorflow as tf
 import pandas as pd
 import numpy as np
@@ -9,7 +6,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 
 #Loading the model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model.keras')
 
 #Loading encoder and scaler
 with open('Label_encoder_gender.pkl', 'rb') as file:  #loading Geoencoder
