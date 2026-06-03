@@ -6,7 +6,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 
 #Loading the model
-model = tf.keras.models.load_model('model.keras')
+model = tf.keras.models.load_model('model_v2.h5')
 
 #Loading encoder and scaler
 with open('Label_encoder_gender.pkl', 'rb') as file:  #loading Geoencoder
