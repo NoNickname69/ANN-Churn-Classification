@@ -1,5 +1,6 @@
-tensorflow==2.17.0
+tensorflow==2.15.1
+tf-keras==2.15.1
 scikit-learn
 streamlit
 numpy
-protobuf
+protobuf<4.0
