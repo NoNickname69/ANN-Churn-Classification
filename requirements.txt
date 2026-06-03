@@ -3,5 +3,5 @@ keras==2.15.0
 scikit-learn
 streamlit
 numpy
-protobuf
+protobuf==3.20.3
 ipykernel
