@@ -5,3 +5,4 @@ streamlit
 numpy
 protobuf==3.20.3
 ipykernel
+pkg_resources
